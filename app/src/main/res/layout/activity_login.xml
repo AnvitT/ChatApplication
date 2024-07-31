@@ -24,6 +24,7 @@
         android:layout_below="@id/app_logo"
         android:layout_marginTop="10dp"
         android:hint="@string/email_hint"
+        android:textColorHint="@color/fadedBlack"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:inputType="textEmailAddress"
@@ -31,8 +32,7 @@
         android:background="@drawable/edt_background"
         android:paddingStart="13dp"
         android:paddingEnd="13dp"
-        android:textColor="@color/black"/>
-
+        android:textColor="@color/black" />
 
     <EditText
         android:id="@+id/edt_password"
@@ -42,14 +42,15 @@
         android:layout_marginTop="10dp"
         android:autofillHints="password"
         android:hint="@string/password_hint"
+        android:textColorHint="@color/fadedBlack"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:inputType="textPassword"
         android:background="@drawable/edt_background"
         android:paddingStart="13dp"
         android:paddingEnd="13dp"
-        android:textColor="@color/black"/>
-    
+        android:textColor="@color/black" />
+
     <Button
         android:id="@+id/btn_login"
         android:layout_width="150dp"
